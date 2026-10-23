@@ -1,0 +1,48 @@
+# 💳 Dashboard de Análise de Extrato PicPay
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](COLOQUE_O_LINK_DO_SEU_APP_AQUI)
+
+Uma aplicação web interativa desenvolvida em **Python** com **Streamlit** para analisar extratos financeiros exportados do **PicPay**. O painel limpa automaticamente os dados, separa despesas e ganhos, e apresenta gráficos dinâmicos e cruzados de evolução temporal e hábitos financeiros.
+
+---
+
+## 🔗 Acesso Online
+Pode testar a aplicação diretamente no navegador através do link abaixo:
+👉 **[Acesse o Dashboard Online Aqui](COLOQUE_O_LINK_DO_SEU_APP_AQUI)** *(substitua pelo link gerado no Streamlit Cloud)*
+
+---
+
+## 🚀 Funcionalidades
+
+* **Upload Flexível:** Importação direta de ficheiros CSV exportados pelo PicPay.
+* **Tratamento Automático:** Limpeza de carateres monetários (`R$`, espaços e vírgulas) e conversão inteligente de datas.
+* **Gráfico Cruzado (Ganhos vs Gastos):** Um gráfico de linhas interativo unificado para comparar o fluxo financeiro ao longo do tempo (**Ganhos em Azul** e **Gastos em Vermelho**).
+* **Despesas Detalhadas:**
+  * Indicador do total gasto.
+  * Gráficos e tabelas com os locais/descrições de maiores gastos.
+  * Análise de frequência (gastos mais recorrentes e valor médio por transação).
+* **Ganhos Detalhados:**
+  * Indicador do total recebido.
+  * Gráficos e tabelas com as origens de maiores entradas.
+  * Análise de frequência de recebimentos.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Python** (Linguagem principal)
+* **Streamlit** (Interface gráfica web e hospedagem)
+* **Pandas** (Manipulação e tratamento de dados)
+* **Plotly** (Gráficos interativos avançados)
+
+---
+
+## 📦 Como Instalar e Executar Localmente
+
+Se preferir rodar o projeto no seu computador:
+
+1. **Pré-requisitos:** Certifique-se de ter o Python instalado.
+2. **Clone ou descarregue** este repositório.
+3. **Abra o terminal** na pasta do projeto e instale as dependências:
+   ```bash
+   pip install -r requirements.txt
