@@ -1,6 +1,5 @@
 # 💳 Dashboard de Análise de Extrato PicPay
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](COLOQUE_O_LINK_DO_SEU_APP_AQUI)
 
 Uma aplicação web interativa desenvolvida em **Python** com **Streamlit** para analisar extratos financeiros exportados do **PicPay**. O painel limpa automaticamente os dados, separa despesas e ganhos, e apresenta gráficos dinâmicos e cruzados de evolução temporal e hábitos financeiros.
 
@@ -8,7 +7,7 @@ Uma aplicação web interativa desenvolvida em **Python** com **Streamlit** para
 
 ## 🔗 Acesso Online
 Pode testar a aplicação diretamente no navegador através do link abaixo:
-👉 **[Acesse o Dashboard Online Aqui](COLOQUE_O_LINK_DO_SEU_APP_AQUI)** *(substitua pelo link gerado no Streamlit Cloud)*
+👉 **[Acesse o Dashboard Online Aqui](https://picpaybysam.streamlit.app/)** *(substitua pelo link gerado no Streamlit Cloud)*
 
 ---
 
